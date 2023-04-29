@@ -8,11 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <section>
-      <Hero />
-      <Suspense fallback={"loading.."}>
-        {/* @ts-expect-error Server Component */}
-        <FeaturedPosts />
-      </Suspense>
+      <h1 className="text-4xl">Welcome to the Blog</h1>
+      <p>COntent</p>
     </section>
   );
 }
