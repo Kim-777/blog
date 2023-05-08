@@ -1,3 +1,5 @@
+import Header from "@/components/Header";
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +7,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body suppressHydrationWarning={true} className="max-w-7xl mx-auto">
+        <Header />
+
         <main className="grow">{children}</main>
       </body>
     </html>

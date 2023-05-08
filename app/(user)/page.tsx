@@ -5,8 +5,6 @@ import PreviewSuspense from "@/components/PreviewSuspense";
 import PreviewBlogList from "@/components/PreviewBlogList";
 import BlogList from "@/components/BlogList";
 
-export const revalidate = 0;
-
 const query = groq`
   *[_type=='post'] {
     ...,
@@ -16,8 +14,6 @@ const query = groq`
 `;
 
 export default async function HomePage() {
-  console.log("previewData ::: ", previewData());
-
   if (previewData()) {
     return (
       <PreviewSuspense fallback={<div>loading</div>}>
