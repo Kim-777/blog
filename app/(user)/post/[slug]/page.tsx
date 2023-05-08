@@ -12,6 +12,8 @@ type Props = {
   };
 };
 
+export const revalidate = 10;
+
 export async function generateStaticParams() {
   const query = groq`*[_type=='post']
   {
