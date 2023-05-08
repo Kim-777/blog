@@ -5,7 +5,7 @@ import Iframe from "sanity-plugin-iframe-pane";
 import { SanityDocument } from "sanity";
 
 // Customise this function to show the correct URL based on the current document
-function getPreviewUrl(doc: SanityDocument) {
+function getPreviewUrl(doc: any) {
   return doc?.slug?.current
     ? `${window.location.host}/${doc.slug.current}`
     : `${window.location.host}`;
