@@ -12,7 +12,7 @@ const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;
 export default defineConfig({
   basePath: "/studio",
   name: "test_sanity",
-  title: "sanity_title",
+  title: "shopl-blog-prototype",
 
   projectId,
   dataset,
@@ -29,6 +29,6 @@ export default defineConfig({
   },
 
   studio: {
-    components: { logo: Logo, navbar: StudioNavbar },
+    // components: { logo: Logo, navbar: StudioNavbar },
   },
 });

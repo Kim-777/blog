@@ -13,7 +13,7 @@ const BlogList = ({ posts }: Props) => {
   console.log(posts.length);
   return (
     <div>
-      <hr className="border-[#F7AB0A] mb-10" />
+      <hr className="border-[#3299FE] mb-10" />
       <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-10 gap-y-16 pb-24">
         {/* Posts */}
         {posts.map((post) => (
@@ -40,7 +40,7 @@ const BlogList = ({ posts }: Props) => {
                   <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-2 items-center">
                     {post.categories.map((category, index) => (
                       <div
-                        className="bg-[#F7AB0A] text-center text-black px-3 py-1 rounded-full text-sm font-semibold"
+                        className="bg-[#3299FE] text-center text-black px-3 py-1 rounded-full text-sm font-semibold"
                         key={index}
                       >
                         {category.title}

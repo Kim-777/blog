@@ -5,9 +5,9 @@ const Banner = () => {
     <div className="flex flex-col lg:flex-row lg:space-x-5 justify-between font-bold px-10 py-5 mb-10">
       <div>
         <h1 className="text-7xl">Shopl&apos;s Tech Blog</h1>
-        <h2 className="mt-5 md:mt-0">
+        <h2 className="mt-5">
           Welcome to{" "}
-          <span className="underline decoration-4 decoration-[#F7AB0A]">
+          <span className="underline decoration-4 decoration-[#3299FE]">
             Every Developers
           </span>{" "}
           favourite blog in the Devoshpere
@@ -15,8 +15,8 @@ const Banner = () => {
       </div>
 
       <p className="mt-5 md:mt-2 text-gray-400 max-w-sm">
-        New product features | The latest in technology | The weekly debugging
-        nightmares & More!
+        디자인 | 프론트엔드 | 백엔드 | 데브옵스 | 샤플데이 | 기획 | 마케팅 |
+        영업
       </p>
     </div>
   );

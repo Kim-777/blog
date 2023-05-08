@@ -10,20 +10,20 @@ export default function Header() {
         <Link href="/" className="rounded-full">
           <Image
             className="rounded-full"
-            src="https://links.papareact.com/1m8"
-            width={50}
-            height={50}
+            src="/images/shopl-logo.png"
+            width={100}
+            height={100}
             alt="logo"
           />
         </Link>
-        <h1>The Shopl</h1>
+        <h1>샤플앤컴퍼니의 성장 이야기</h1>
       </div>
       <div>
         <Link
-          href="/"
-          className="px-5 py-3 text-sm md:text-base bg-gray-900 text-[#F7AB0A] flex items-center rounded-full text-center"
+          href="https://www.shoplworks.com/"
+          className="px-5 py-3 text-sm md:text-base bg-[#3299FE] text-white flex items-center rounded-full text-center"
         >
-          Sign up to the Free Code
+          Shopl 공식 홈페이지 가기
         </Link>
       </div>
     </header>
