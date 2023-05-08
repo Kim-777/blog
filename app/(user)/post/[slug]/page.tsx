@@ -72,7 +72,7 @@ async function PostPage({ params: { slug } }: Props) {
                   width={40}
                   height={40}
                 />
-                <div className="w-64">
+                <div>
                   <h3>{post.author.name}</h3>
                   <div>{/* TODO: Author BIO */}</div>
                 </div>

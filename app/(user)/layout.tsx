@@ -17,10 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={sans.className}>
-      <body
-        suppressHydrationWarning={true}
-        className="max-w-7xl mx-auto overflow-clip"
-      >
+      <body suppressHydrationWarning={true} className="max-w-7xl mx-auto">
         <Header />
         <Banner />
         <main>{children}</main>
