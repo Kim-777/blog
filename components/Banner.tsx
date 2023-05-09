@@ -6,11 +6,14 @@ const Banner = () => {
       <div>
         <h1 className="text-7xl">Shopl&apos;s Tech Blog</h1>
         <h2 className="mt-5">
-          Welcome to{" "}
           <span className="underline decoration-4 decoration-[#3299FE]">
             Every Developers
           </span>{" "}
-          favourite blog in the Devoshpere
+          interested in{" "}
+          <span className="underline decoration-4 decoration-[#3299FE]">
+            tech
+          </span>{" "}
+          are welcome.
         </h2>
       </div>
 

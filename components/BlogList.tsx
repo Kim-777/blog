@@ -9,8 +9,6 @@ type Props = {
 };
 
 const BlogList = ({ posts }: Props) => {
-  console.log("posts ::: ", posts);
-  console.log(posts.length);
   return (
     <div>
       <hr className="border-[#3299FE] mb-10" />
@@ -40,7 +38,7 @@ const BlogList = ({ posts }: Props) => {
                   <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-2 items-center">
                     {post.categories.map((category, index) => (
                       <div
-                        className="bg-[#3299FE] text-center text-black px-3 py-1 rounded-full text-sm font-semibold"
+                        className="bg-[#3299FE] text-center text-white px-3 py-1 rounded-full text-sm font-semibold"
                         key={index}
                       >
                         {category.title}
